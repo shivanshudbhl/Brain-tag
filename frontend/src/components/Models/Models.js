@@ -50,7 +50,7 @@ const models = [
     "Detect potential risks and ensure a secure online environment, swiftly categorizing content into gore, drug-related, or safe categories.",
     image:
       "https://thumbs.dreamstime.com/z/kid-friendly-emblem-sticker-child-cafe-play-zone-area-geotag-sign-picture-happy-unhappy-vector-badges-icon-208479989.jpg",
-    link: "/models/images/x",
+    link: "/models/images/moderation",
   }
 ];
 
