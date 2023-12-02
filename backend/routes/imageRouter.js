@@ -11,7 +11,7 @@ const PAT = "7b8219dde56543c0b9e71a20d7a4ee89"
 router.get("/:id", authenticate.verifyUser, async (req, res) => {
   const { id } = req.params;
   const { img } = req.query;
-
+   console.log(id);
   const user = await User.findById(req.user._id);
 
   const data = await clarifai.models.predict(cfmodels[id], img);
